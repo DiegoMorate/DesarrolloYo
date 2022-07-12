@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contactanos</title>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li> <a style="color:crimson;" href="../index.html"> Home </a></li>
+                <li> <a style="color:crimson;" href="productos.html"> Productos </a></li>
+                <li> <a style="color:crimson;"href="sobreNos.html"> Sobre Nosotros </a></li>
+                <li> <a style="color:crimson;" href="envios.html"> Envios </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form action=""></form>
+        <fieldset>
+            <legend>Formulario de Contacto</legend>
+            <div>
+                <label for="nombre" >Ingresa tu nombre</label>
+                <input type="text" name="nombre" placeholder="Completa con tu nombre">
+            </div>
+            <div>
+                <label for="nombre" >Ingresa tu apellido</label>
+                <input type="text" name="apellido" placeholder="Completa con tu apellido">
+            </div>
+            <div>
+                <label for="email">Ingresa tu email</label>
+                <input type="email" name="email" placeholder="Completa tu email" required>
+            </div>
+            <div>
+                <select name="estadoCivil" >
+                    <option value="default" selected disabled >Estado Civil</option>
+                    <option value="soltero"> Soltero </option>
+                    <option value="casado"> Casado </option>
+                </select>
+            </div>
+            <div>
+               <label> Desea recibir el Newsletter? <input type="checkbox"></label>     
+            </div>
+            <div>
+                <textarea class="comentario"name="comments" cols="30" rows="10" placeholder="Comentario"></textarea>
+            </div>
+            <div>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Toca para enviar">
+            </div>
+        </fieldset>
+</body>
+</html>

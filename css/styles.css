@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(59, 57, 57);
+}
+
+h1{
+    color: whitesmoke;
+    font-family:'Roboto', sans-serif;;
+}
+
+li{
+    color: azure;
+    list-style-type: none;
+}
+
+td{
+    color: azure;
+    text-align: center;
+}
+table{
+    border: 5px;
+    border-color:salmon;
+    justify-content: center;
+} 
+
+.table-list{
+    text-align: left;
+    padding-right: 20px;
+}
+
+footer{
+    color: azure;
+}
+
+/*Contacto*/
+
+fieldset, .formulario{
+    background-color: black;
+    color: whitesmoke;
+}
+
+input, select{
+    color: whitesmoke;
+}
